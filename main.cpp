@@ -6,7 +6,10 @@
 
 using namespace std;
 
+int VectorTest();
+
 int main(){
+    VectorTest();
     cout << "Hello, Word!" << endl;
     return 0;
 }
