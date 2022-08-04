@@ -7,9 +7,13 @@
 using namespace std;
 
 int VectorTest();
+void VectorLiteTest();
 
-int main(){
-    VectorTest();
+int main() {
+    VectorLiteTest();
     cout << "Hello, Word!" << endl;
+    cout << "Hello, Word!" << endl;
+    cout << "Hello, Word!" << endl;
+
     return 0;
 }
