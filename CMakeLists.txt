@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.19)
 project(codingtest)
 
-add_subdirectory(DataStructure)
-add_subdirectory(LinuxSysPrograming)
+set(CMAKE_CXX_STANDARD 11)
+
+aux_source_directory(${CMAKE_SOURCE_DIR} SRC_LIST)
+
+add_executable(${PROJECT_NAME} ${SRC_LIST} StlTest.h)
